@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="swcin.samyakwebcreators.bang.slink">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_electron"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_electron_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9303826297828719~4834311822" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9303826297828719~4834311822" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9303826297828719~4834311822" />
+
+        <activity
+            android:name=".PrivateHelpDark"
+            android:theme="@style/AppThemePrivate" />
+        <activity
+            android:name=".PrivateActivityDark"
+            android:theme="@style/AppThemePrivate" />
+        <activity
+            android:name=".MainActivityDark"
+            android:theme="@style/AppThemePrivate" />
+        <activity android:name=".PrivateHelp" />
+        <activity
+            android:name=".PrivateActivity"
+            android:theme="@style/AppThemePrivate" />
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutActivity" />
+
+
+
+    </application>
+
+</manifest>

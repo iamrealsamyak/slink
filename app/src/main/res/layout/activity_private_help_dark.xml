@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323030"
+    android:orientation="vertical"
+    tools:context=".PrivateHelpDark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="38dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Private Mode Help"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="116dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:background="#323030"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="171dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Slink clears your Activity when you are in private mode. This way your login and other activities will not be cached or simply saved after you close the app.  While this doesn’t make you anonymous to websites or your internet service provider, it makes it easier \nto keep what you do online private from anyone else."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="373dp"
+        android:layout_height="171dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="You Can click on Unlock Button in the \nToolbar to go back to Normal Mode. "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+
+</LinearLayout>
+
+
